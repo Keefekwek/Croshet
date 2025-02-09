@@ -1,0 +1,242 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Centers navbar horizontally */
+    align-items: center; /* Aligns items vertically */
+    gap: 55px; /* Adds space between links */
+    padding: 10px; /* Adds padding for better spacing */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.navbar a b {
+    text-decoration: none;
+    color:black;
+    font-size: 40px;
+}
+
+.hero-section {
+    position: relative;
+    background-color: #fbe4da;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+.yarn-image {
+    width: 300px;
+    height: auto;
+}
+
+.text-container {
+    text-align: center;
+    max-width: 500px;
+    margin-left: 0; /* Ensure no extra space */
+}
+
+.text-container h1 {
+    font-size: 75px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.text-container p {
+    font-size: 25px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.shop-button {
+    background-color: #e07a6a;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.shop-button:hover {
+    background-color: #d85a4b;
+}
+
+
+/* Logo Styling - Top Right */
+.logo-image {
+    width: 140px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Product Catalog */
+#catalog {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center
+}
+
+.product {
+    display: inline-block;
+    width: 22%;
+    margin: 1%;
+    padding: 15px;
+    background: #fbe4da;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 40%;
+    border-radius: 8px;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 16px;
+    color:#333;
+}
+
+.product button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.product button:hover {
+    background-color:aqua;
+}
+
+/* Forms (Create Account, Feedback) */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#create-account h2 {
+    text-align: center;
+    padding: 40px;
+    color: orangered;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #e65b50;
+}
+
+/* Shopping Cart & Custom Orders */
+#shopping-cart, #custom-orders {
+    text-align: center;
+    padding: 40px;
+    background: #fff;
+}
+
+#shopping-cart h2 {
+    text-align: center;
+    padding: 40px;
+    color: orangered;
+}
+
+#custom-orders h2 {
+    text-align: center;
+    padding: 40px;
+    color: orangered;
+}
+
+#shopping-cart p, #custom-orders p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Feedback Section */
+#feedback {
+    padding: 40px;
+    background: #f1f1f1;
+}
+
+#feedback h2 {
+    padding 40px;
+    color: orangered;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: orangered;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+}
