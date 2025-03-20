@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Yarn ball background -->
+  <circle cx="50" cy="50" r="40" fill="#d4a373" />
+  
+  <!-- Yarn details -->
+  <path d="M50,90c-22.1,0-40-17.9-40-40S27.9,10,50,10s40,17.9,40,40S72.1,90,50,90z M50,20c-16.5,0-30,13.5-30,30s13.5,30,30,30s30-13.5,30-30S66.5,20,50,20z" fill="#b08968" />
+  
+  <!-- Yarn string details -->
+  <path d="M25,45c15-10,35-5,45,10" stroke="#b08968" stroke-width="2" fill="none" stroke-linecap="round" />
+  <path d="M30,60c10-15,40-15,45,0" stroke="#b08968" stroke-width="2" fill="none" stroke-linecap="round" />
+  <path d="M40,70c5-10,25-10,30,0" stroke="#b08968" stroke-width="2" fill="none" stroke-linecap="round" />
+  
+  <!-- Crochet hook detail -->
+  <path d="M75,25L65,35" stroke="#b08968" stroke-width="3" fill="none" stroke-linecap="round" />
+  <path d="M65,35L60,30" stroke="#b08968" stroke-width="3" fill="none" stroke-linecap="round" />
+</svg>
